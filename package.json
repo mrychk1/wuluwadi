@@ -1,0 +1,29 @@
+{
+  "name": "projeact",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.7.6",
+    "jquery": "^3.7.1",
+    "mars3d": "^3.7.19",
+    "mars3d-cesium": "^1.118.3",
+    "stompjs": "^2.3.3",
+    "vite-plugin-mars3d": "^4.1.1",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.30",
+    "@types/stompjs": "^2.3.9",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6",
+    "worker-loader": "^3.0.8"
+  }
+}
